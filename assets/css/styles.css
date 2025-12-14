@@ -183,6 +183,8 @@ img {
   backdrop-filter: blur(12px);
   padding: 3rem 1.5rem 1.5rem;
   color: var(--white-color);
+  clip-path: circle(8px at 88% 9%);
+  transition: clip-path .5s ease-in-out;
 }
 
 .info__name{
@@ -237,10 +239,15 @@ img {
 }
 
 /* Rotate icon */
-
+.card__article:hover .card__clip{
+  transform: rotate(-45deg);
+}
 
 /* Clip path animation */
-
+.info:hover,
+.card__clip:hover ~.info{
+  clip-path: circle(100%);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
