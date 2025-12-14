@@ -251,9 +251,67 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px){
+  .container{
+    margin-inline: 1rem;
+  }
 
+  .card__container{
+    grid-template-columns: 1fr;
+  }
+
+  .info{
+    padding: 1.5rem 1rem;
+  }
+}
 
 /* For medium devices */
-
+@media screen and (min-width: 768px){
+  .card__container{
+    grid-template-columns: repeat(2, 260px);
+  }
+}
 
 /* For large devices */
+@media screen and (min-width: 1150px) {
+  .card{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+
+  .card__container{
+    grid-template-columns: repeat(3, 340px);
+  }
+  .card__article,
+  .card__img{
+    border-radius: 3rem;
+  }
+  .card__data{
+    left: 2rem;
+    bottom: 3rem;
+  }
+  .card__profession{
+    font-size: var(--normal-font-size);
+  }
+  .card__clip{
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .info{
+    padding: 4rem 2rem 2.5rem;
+  }
+  .info__description,
+  .info__button{
+    font-size: var(--normal-font-size);
+  }
+  .info__description{
+    margin-bottom: 1.5rem;
+  }
+  .info__social{
+    left: 2rem;
+    bottom: 2.5rem;
+    column-gap: .75rem;
+  }
+}
