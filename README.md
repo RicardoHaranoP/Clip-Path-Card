@@ -1,5 +1,6 @@
 # Clip Path Card
 
+Construção de clip path cards
 Com a ajuda de [Bedimcode](https://www.youtube.com/@Bedimcode)
 
 ## 🔧 Instalação
