@@ -1,12 +1,27 @@
-# Responsive Clip Path Card
-## [Watch it on youtube](https://youtu.be/M5Q5hBlQO1A)
-### Responsive Clip Path Card
+# Clip Path Card
 
-- Responsive Clip Path Card HTML CSS
-- Contains clipping path effects on hover over the card.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+Com a ajuda de [Bedimcode](https://www.youtube.com/@Bedimcode)
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+## 🔧 Instalação
 
-![preview img](/preview.png)
+Clone o projeto
+```
+git clone https://github.com/RicardoHaranoP/Clip-Path-Card.git  
+```
+
+Abra a pasta Clip-Path-Card
+```
+cd Clip-Path-Card
+```
+
+Abra o arquivo index.html
+```
+index.html
+```
+
+## 🛠️ Construído com
+
+* HTML
+* CSS
+* [SCSS](https://sass-lang.com/)
+
