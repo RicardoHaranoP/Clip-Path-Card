@@ -171,8 +171,70 @@ img {
 .card__article:hover .card__img{
   transform: scale();
 }
-/*=============== CARD INFO ===============*/
 
+/*=============== CARD INFO ===============*/
+.info{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, .1);
+  backdrop-filter: blur(12px);
+  padding: 3rem 1.5rem 1.5rem;
+  color: var(--white-color);
+}
+
+.info__name{
+  font-size: var(--biggest-font-size);
+  margin-bottom: .5rem;
+}
+
+.info__description{
+  font-size: var(--small-font-size);
+  margin-bottom: 1rem;
+}
+
+.info__button{
+  display: inline-flex;
+  background-color: hsl(var(--hue), 90%, 50%);
+  box-shadow: 0 0 12px hsl(var(--hue), 90%, 50%);
+  padding: .5rem .75rem;
+  border-radius: .5rem;
+  color: var(--black-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  transition: box-shadow .4s;
+}
+
+.info__button:hover{
+  box-shadow: 0 0 20px hsl(var(--hue), 90%, 50%);
+}
+
+.info__social{
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  display: flex;
+  column-gap: .5rem;
+}
+
+.info__link{
+  background-color: hsl(var(--hue), 90%, 50%);
+  box-shadow: 0 0 12px hsl(var(--hue), 90%, 50%);
+  width: 2rem;
+  height: 2rem;
+  border-radius: .75rem;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  color: var(--black-color);
+  transition: transform .4s;
+}
+
+.info__link:hover{
+  transform: translateY(-.25rem);
+}
 
 /* Rotate icon */
 
