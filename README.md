@@ -27,5 +27,3 @@ index.html
 
 * HTML
 * CSS
-* [SCSS](https://sass-lang.com/)
-
