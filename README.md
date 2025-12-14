@@ -26,4 +26,5 @@ index.html
 ## 🛠️ Construído com
 
 * HTML
-* CSS
+* [CSS](https://www.w3schools.com/css/)
+
